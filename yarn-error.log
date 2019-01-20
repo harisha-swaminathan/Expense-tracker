@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add --dev dotevn@4.0.0
+  /usr/local/bin/node /usr/local/bin/yarn add istory@4.7.2
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/dotevn: Not found
+  Error: https://registry.yarnpkg.com/istory: Not found
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:61073:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:120166:22)
       at Request.emit (events.js:182:13)
@@ -37,7 +37,7 @@ npm manifest:
       "build:dev": "webpack",
       "build:prod": "webpack -p --env production",
       "dev-server": "webpack-dev-server",
-      "test": "cross-env NODE_ENV=TEST jest --config=jest.config.json",
+      "test": "cross-env NODE_ENV=test jest --config=jest.config.json",
       "start": "node server/server.js",
       "heroku-postbuild": "yarn run build:prod"
     },
@@ -76,6 +76,7 @@ npm manifest:
     },
     "devDependencies": {
       "cross-env": "5.0.5",
+      "dotenv": "4.0.0",
       "enzyme": "3.0.0",
       "enzyme-adapter-react-16": "1.0.0",
       "enzyme-to-json": "3.0.1",
@@ -2309,6 +2310,11 @@ Lockfile:
     dependencies:
       dom-serializer "0"
       domelementtype "1"
+  
+  dotenv@4.0.0:
+    version "4.0.0"
+    resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
+    integrity sha1-hk7xN5rO1Vzm+V3r7NzhefegzR0=
   
   ecc-jsbn@~0.1.1:
     version "0.1.2"
