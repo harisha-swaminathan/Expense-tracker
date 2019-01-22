@@ -1,0 +1,10 @@
+.visible-mobile{
+    @media(min-width: $desktop){
+        display:none;
+    }
+}
+.visible-desktop{
+    @media(max-width: $desktop - 0.1rem){
+        display:none;
+    }
+}
