@@ -3,13 +3,19 @@ Expense Tracker
 An application used to keep track of daily expenses, built with React, Redux, JavaScript, and CSS. Tested with Jest and Enzyme. Uses Express Server, FireBase aunthentication and FireBase database.
 
 Project Screen Shot(s)
+
+
+Login page
+
 ![image](https://user-images.githubusercontent.com/35213866/67166317-36984380-f35c-11e9-9c65-41c9a762dc8a.png)
 
 
+List of expenses
 
 ![image](https://user-images.githubusercontent.com/35213866/67166420-3c425900-f35d-11e9-9041-10fb99053f73.png)
 
 
+Add expense page
 
 ![image](https://user-images.githubusercontent.com/35213866/67166423-45cbc100-f35d-11e9-994f-f75aee7af1e7.png)
 
