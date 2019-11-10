@@ -4,7 +4,9 @@ An application used to keep track of daily expenses, built with React, Redux, Ja
 
 Project Screen Shot(s)
 ![image](https://user-images.githubusercontent.com/35213866/67166317-36984380-f35c-11e9-9c65-41c9a762dc8a.png)
+
 ![image](https://user-images.githubusercontent.com/35213866/67166420-3c425900-f35d-11e9-9041-10fb99053f73.png)
+
 ![image](https://user-images.githubusercontent.com/35213866/67166423-45cbc100-f35d-11e9-994f-f75aee7af1e7.png)
 
 Installation and Setup Instructions
